@@ -1,0 +1,6 @@
+#!/bin/bash
+#
+# 00-header – Display the current date and time.
+
+current_datetime=$(date '+%a, %d %b %Y %H:%M:%S %Z')
+printf 'System information as of %s\n\n' "$current_datetime"
